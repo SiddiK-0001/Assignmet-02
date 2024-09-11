@@ -144,8 +144,7 @@ main{
 }
 
 .nav, .banner, .cng-habits, .habits{
-    width: 80%;
-    height: 100%;
+    width: 80%;   
     margin: 0px auto;
     padding-top: 50px;
 }
