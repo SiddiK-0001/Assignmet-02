@@ -143,7 +143,7 @@ main{
     background-color: black;
 }
 
-.nav, .banner, .cng-habits, .habits{
+.nav, .banner, .cng-habits, .habits, .run{
     width: 80%;   
     margin: 0px auto;
     padding-top: 50px;
@@ -239,8 +239,29 @@ main{
     clip-path: circle();
 }
 
+/* run section */
 
+.run{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(76, 76, 76, 0.521);
+    border-radius: 25px;
+    padding: 40px;
+    margin: 30px auto;
 
+}
+
+.extramile{
+    text-align: left;
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+  
+
+.run img{
+    border-radius: 25px;
+}
 
 
 
@@ -275,7 +296,7 @@ main{
         margin: 6px 0;
     }
 
-    .banner, .habits{
+    .banner, .habits,.run,.extramile{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -289,7 +310,7 @@ main{
         padding-bottom: 30px;
     }
     .cng-habits{
-        width: 80%;
+         max-width: 490px;;
     }
      
 
@@ -301,6 +322,14 @@ main{
         transform: translateX(6px) translateY(-130px);
     }
     
+    .run{
+        padding: 60px;
+        width: 340px;
+    }
+
+    .lists img{
+        width: 240px;
+    }
 
        
     
