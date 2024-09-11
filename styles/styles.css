@@ -288,7 +288,9 @@ main{
         width: 250px;
         padding-bottom: 30px;
     }
-
+    .cng-habits{
+        width: 80%;
+    }
      
 
     .onlybtn{
