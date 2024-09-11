@@ -130,13 +130,22 @@
     border-radius: 10px;
     
 } 
-header{
-    background-image: radial-gradient(rgb(44, 44, 44),black);
-    
+body{
+    margin: 0px;
 }
 
-.nav, .banner{
+header{
+    background-image: radial-gradient(rgb(44, 44, 44),black);
+    margin-bottom: -170px;
+}
+
+main{
+    background-color: black;
+}
+
+.nav, .banner, .cng-habits, .habits{
     width: 80%;
+    height: 100%;
     margin: 0px auto;
     padding-top: 50px;
 }
@@ -145,6 +154,7 @@ header{
 .nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-border{
@@ -200,6 +210,45 @@ header{
     text-align: left;
 }
 
+/* habits section */
+
+.cng-habits{
+    margin: 0px auto;
+    text-align: center;
+    width: 560px;
+}
+
+.habits{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+  
+}
+
+.lists{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;   
+   
+}
+
+.habits .lists img{
+    clip-path: circle();
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -207,8 +256,9 @@ header{
 
     header{
         margin: 0px auto;
-        padding-bottom: 0px;
-    }
+       margin-bottom: -170px;
+     
+     }
 
     .nav-items{
         display: none;
@@ -226,16 +276,28 @@ header{
         margin: 6px 0;
     }
 
-    .banner{
+    .banner, .habits{
         display: flex;
         flex-direction: column;
         justify-content: center;
         gap: 20px;
         padding-top:5px;
+        
     }
 
-    .nav .banner{
-        padding: 0px auto;
+    .habits{
+        width: 250px;
+        padding-bottom: 30px;
+    }
+
+     
+
+    .onlybtn{
+        display: flex;
+    }
+
+    .vid-btn{
+        transform: translateX(6px) translateY(-130px);
     }
     
 
