@@ -465,6 +465,17 @@ input[type="email"]
         flex-wrap: wrap;
         gap: 5px;
     }
+
+    input[type="text"]
+    {
+        width: 150px;
+    }
+    
+
+    input[type="email"]
+    {
+        width: 330px;
+    }
     
 
   
@@ -502,10 +513,11 @@ input[type="email"]
         width: 140px;
     }
 
-    .calculate{
-        width: 470px;
+    .calculate,.cng-habits{
+        width: 350px;
 
     }
+
 
    
 
