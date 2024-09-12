@@ -336,14 +336,18 @@ input[type="email"]
 }
 
 .members{
-    max-width: 80%;
+    max-width: 70%;
+  
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(auto-fill,minmax(327px, 272px));
+    justify-content: center;
+    align-items: center;
    
-    row-gap: 10px;    
+    gap: 20px;   
+   
     
     background-color: rgba(103, 103, 103, 0.447);
-    padding: 10px ;
+    padding: 20px ;
     margin: 0 auto;
     border-radius: 20px;
    
@@ -351,15 +355,16 @@ input[type="email"]
 
 .member{
     position: relative;
-    width: 100%;
+    width:327px;
+    height: 272px;
    
 }
 
 
 
 .member img{
-    width:327px;
-    height: 272px;
+    width:100%;
+    height: 100%;
     margin: 0;
     border-radius: 20px;
     object-fit: cover;
@@ -378,7 +383,7 @@ input[type="email"]
 
 .footer{
     background-color: rgb(58, 58, 58);
-    margin-top: 20px ;;
+    margin-top: 30px ;;
     margin-bottom: 20px;
     padding: 20px 50px;
 }
@@ -436,7 +441,7 @@ input[type="email"]
         margin: 6px 0;
     }
 
-    .banner, .habits,.run,.extramile{
+    .banner, .habits,.run,.extramile,.charts,.members{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -444,6 +449,26 @@ input[type="email"]
         padding-top:5px;
         
     }
+
+    .foot{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+      
+        align-items: flex-start;
+        
+    }
+
+    .forom1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    
+
+  
+       
 
     .habits{
         width: 250px;
@@ -469,11 +494,21 @@ input[type="email"]
         width: 240px;
     }
 
+    .run img {
+        width: 300px;;
+    }
+
     .lists img{
         width: 140px;
     }
 
-       
+    .calculate{
+        width: 470px;
+
+    }
+
+   
+
     
 
 
