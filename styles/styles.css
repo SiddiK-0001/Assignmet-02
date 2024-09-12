@@ -441,7 +441,7 @@ input[type="email"]
         margin: 6px 0;
     }
 
-    .banner, .habits,.run,.extramile,.charts,.members{
+    .banner, .habits,.run,.extramile,.charts{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -449,6 +449,22 @@ input[type="email"]
         padding-top:5px;
         
     }
+     .members{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+     }
+
+     .member{
+        position: relative;
+        width:305px;
+        height: 272px;
+       
+    }
+
+   
 
     .foot{
         display: flex;
@@ -459,22 +475,29 @@ input[type="email"]
         
     }
 
+    .forom{
+        
+    }
+
     .forom1{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 5px;
+        display:grid;
+       grid-template-columns: repeat(2,1fr);
+       gap: 5px;
+        
+       
     }
 
     input[type="text"]
     {
-        width: 150px;
+        width: 140px;
     }
     
 
     input[type="email"]
     {
-        width: 330px;
+        width: 325px;
+       
+        
     }
     
 
