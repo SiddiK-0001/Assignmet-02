@@ -42,8 +42,7 @@
     font-family: "Inter", sans-serif;
     font-size: 1.75rem;
     font-weight: 800; 
-    margin-bottom: 0px;
-    margin-top: 15px;  
+    margin-bottom: -15px; 
     
 }
 
@@ -143,11 +142,17 @@ main{
     background-color: black;
 }
 
-.nav, .banner, .cng-habits, .habits, .run{
+.nav, .banner, .cng-habits, .habits{
     width: 80%;   
     margin: 0px auto;
     padding-top: 50px;
 }
+
+.run{
+    width: 70%;
+}
+
+
 /* nav bar */
 
 .nav{
@@ -243,12 +248,13 @@ main{
 
 .run{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: rgba(76, 76, 76, 0.521);
     border-radius: 25px;
     padding: 40px;
     margin: 30px auto;
+    gap: 100px;
 
 }
 
@@ -263,7 +269,138 @@ main{
     border-radius: 25px;
 }
 
+/* Bmi calc section  */
 
+.bmi{
+    max-width: 80%;
+    width: 671px;
+    margin: 0px auto;
+}
+
+th,td{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+.charts{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    background-color: rgba(96, 96, 96, 0.595);
+    padding: 40px ;
+}
+
+.calculate{
+    width: 577px;
+}
+
+.forom{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+input[type="text"]
+{
+    height: 40px;
+    border-radius: 10px;
+    background-color: rgba(82, 82, 82, 0.375);
+    border: none;
+    
+    width: 200px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+
+}
+
+input[type="email"]
+{
+    height: 90px;
+    border-radius: 10px;
+    background-color: rgba(82, 82, 82, 0.375);
+    border: none;
+    width: 450px;
+    padding: 10px 20px;
+    margin-bottom: 20px; 
+    color: white;
+}
+
+/* team members */
+
+.team{
+    max-width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    width: 671px;
+}
+
+.members{
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+   
+    row-gap: 10px;    
+    
+    background-color: rgba(103, 103, 103, 0.447);
+    padding: 10px ;
+    margin: 0 auto;
+    border-radius: 20px;
+   
+}
+
+.member{
+    position: relative;
+    width: 100%;
+   
+}
+
+
+
+.member img{
+    width:327px;
+    height: 272px;
+    margin: 0;
+    border-radius: 20px;
+    object-fit: cover;
+   
+    
+}
+
+.members .text{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+
+/* footer  */
+
+.footer{
+    background-color: rgb(58, 58, 58);
+    margin-top: 20px ;;
+    margin-bottom: 20px;
+    padding: 20px 50px;
+}
+
+.foot-size{
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rights{
+    margin: 0 auto;
+}
+.foot{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+   
+}
 
 
 
@@ -329,11 +466,11 @@ main{
     
     .run{
         padding: 60px;
-        width: 340px;
+        width: 240px;
     }
 
     .lists img{
-        width: 240px;
+        width: 140px;
     }
 
        
